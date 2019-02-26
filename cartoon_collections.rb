@@ -11,7 +11,7 @@ end
 
 def long_planeteer_calls(short_words)
   #false
-  short_words.true{|short_words|short_words.length>4}
+  if short_words !=true{|short_words|short_words.length>4}
 
 end
 
