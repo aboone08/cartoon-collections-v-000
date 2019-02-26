@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-  planeteer_calls.collect(&:capitalize) << planeteer_calls
+  planeteer_calls.collect(&:capitalize) << planeteers
 end
 
 def long_planeteer_calls# code an argument here
